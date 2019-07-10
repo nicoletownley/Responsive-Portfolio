@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="UTF-8">
+	<title>About Me</title>
+	<!-- this is the link I need to put in through relative link to attach to my css file and the other pages -->
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+
+	<!-- Im going to name the id in the header. Since it is my name, I will want to be able to place a specific style on the id, Hypothetically -->
+	<header id="navline">
+		<!-- within this header should be the four links "nicole townley" (this should be a link because anyone who clicks on it should be taken to about me???? check wiht tutor) along with all three pages (float right) that I think will need to float right -->
+		<h1><strong></strong></h1>
+
+		<!-- I dont know if I should style the page it seems if I use a div I can use css to syle it -->
+		<style></style>
+		<!-- Answer: syle tags are for internal css (if it were inside this html document) -->
+		<!-- I put this in to use it for the first page about me page -->
+		<div class="container">
+
+			<a href="index.html" id="yourname">Nicole Townley</a>
+			<nav>
+				<!-- the se are the three links that are in the header on all three pages. need to figure out a way to make them stay on the header for all three pages*/ -->
+
+				<a href="index.html">About Me</a>
+				<a href="portfolio.html">Portfolio</a>
+				<a href="contact.html">Contact</a>
+
+			</nav>
+			<!-- We should remove h2 header nicole townley since the name in header will be a link. "about me should be changed to h1 if not in the title        
+  -->
+			<!-- Answer: Charlie said you could use and id on more than one page. I am using the id for my name that will be on all the headers. I will figure out how to save and or seperate this html document into the portfolio and contact documents and the header (id)
+should pull through to all three documents once I figure out what he was talking about. I will use id "yourname" to style this portion of the header in css and across documents....haha! to             -->
+			<!-- These should be navigation tags cause you will be navigating the pages  from each page. Save work and go offline to investigate navigation before changing. Also research how to change handle the divs in the header. There are too many header/div/html interface for divs in the header section. Need to think about how many divs will be necessary for header give links usage instead of divs. Can we format the links  - float - in css?   -->
+	</header>
+	</div>
+	<!-- I dont know if I will need this div class since I have the div class of container from above that I used in the first html project -->
+
+	<!-- Since this i	s a section id from the Bio exercise, research how to build a section for the paragraphs on the about me page. It is hard t distinquish section from div but I know section has more to do with
+		 -->
+	<div class="Info">
+		<h1>Portfolio</h1>
+
+		<!-- divs for the six images on the last page in case I need to float them-->
+		<!-- Lets see if I can manuever the banners on the photos by using headers in each div with id's and programming them in CSS	 -->
+		<!-- Answer: use class so you dont have to go and indiviguall change each header. -->
+		<div class="banner">
+		    <img src="assets\images\Hangmans noose.jpg"class="auth-image">
+			<h2 class="words">Hangman</h2>
+		</div>
+			<div class="banner">
+			<img src="assets\images\Rutgers.jpg"class="auth-image">
+			<h2 class="words">Rutgers</h2>
+		</div>
+		<div class="banner">
+			<img src="assets\images\African RPG.jpg"class="auth-image">
+			<h2 class="words">RPG Game<h2>
+		</div>
+		<div class="banner">
+			<img src="assets\images\Trivia.jpg"class="auth-image">
+			<h2 class="words">Trivia</h2>
+		</div>
+		<div class="banner">
+			<img src="assets\images\RPS.jpg"class="auth-image">
+			<h2 class="words">Rock Paper Scissors</h2>
+		</div>
+	</div>
+	<footer>
+
+		<p> &#169; Copywrite 2019 Nicole Townley </p>
+
+	</footer>
+</body>
+
+</html>
